@@ -1,0 +1,129 @@
+@charset "UTF-8";
+html {
+	overflow-y: scroll; /* IEへの対応 http://www.htmq.com/style/overflow-y.shtml */
+	/*Internet Explorerが独自に追加したプロパティ*/
+	/*画面に収まりきれなかったときにスクロールして表示することを許可するか否か*/
+    /* scroll-behavior: smooth; */
+}
+
+/* リセットおまじない--------------------------------- */
+body, h1, h2, h3, h4, h5, p, ul, ol, li, dl, dt, dd {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background:white;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.4;
+	min-width: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+li {
+	list-style: none;
+}
+a {
+	outline: none;
+	color: inherit;
+    text-decoration: none;
+}
+img {
+	border: 0px;
+	vertical-align: bottom;
+}
+/* --------------------------------------------------- */
+body {
+	font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", "Meiryo", "HGPｺﾞｼｯｸM", "Osaka", "ＭＳ Ｐゴシック", sans-serif, Century Gothic, Arial;
+    color:#3b4043;
+    
+}
+h1{
+    font-size: 28px;
+    margin: 40px;
+}
+h2{
+    font-size: 20px;
+    margin: 10px 0;
+}
+p{
+    text-align: left;
+}
+a{
+    display:block;
+}
+section{
+    margin-top: 55px;
+}
+/* ーーーーーーーーーーーーーーーーー */
+/* header{
+    background-color:rgb(83, 121, 197);
+    width: 100%;
+    height: 60px;
+    color:white;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top:0px;
+}
+
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+   
+}
+
+header li{
+    border-radius: 30px;
+    box-shadow: 1px 4px 2px rgb(192, 188, 197);
+    background-color: rgb(93, 154, 201);
+    padding: 7px 10px;
+}
+
+header li:hover{
+    transform: translate3d(0,3px,0);
+    color: rgb(249, 249, 249);
+    box-shadow: none;
+} */
+
+
+
+
+#main-visual{
+    width: 100%;
+    height: 600px;
+    color: rgb(249, 249, 249);
+    background: no-repeat center center;
+    background-size: cover;
+    background-image: url("../img/pengxiao-xu-vJZe1Z0fT1c-unsplash.jpg");
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+#main-visual h1{
+    font-size: 70px;
+    color: rgb(70, 219, 169);
+
+}
+
+#about{
+    border: 3px solid blue;
+    background-color: rgb(253, 253, 253);
+    padding: 150px;
+    margin:100px;
+}
+
+#gallery .inline-container img {
+    width: 250px;
+    height: 200px; 
+}
+#gallery .block-container p {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
